@@ -103,7 +103,7 @@ while (sus) {
                     window.alert('a quantidade expecificada ultrapassa o valor em estoque, ação cancelada.')
 
                 } else {
-                    estoque[id]['quantidade'] += quant;
+                    estoque[id]['quantidade'] -= quant;
                     window.alert('operação realizada com sucesso!');
 
                 }
